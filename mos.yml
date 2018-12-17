@@ -1,0 +1,25 @@
+type: lib
+author: Rodrigo Miguel
+description: Sensor configuration defs
+
+config_schema:
+  - ["device.type",           "i",  1,    {title: "Device Type"}]      
+  
+  - ["sensors", "o",                      {title: "Sensor configuration"}]
+  - ["sensors.pin1.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.pin1.id",       "s", "",    {title: "Sensor name"}]
+  - ["sensors.pin1.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.pin1.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.pin1.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.pin1.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.pin2.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.pin2.id",       "s", "",    {title: "Sensor name"}]
+  - ["sensors.pin2.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.pin2.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.pin2.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.pin2.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+# Used by the mos tool to catch mos binaries incompatible with this file format
+manifest_version: 2017-09-29
+
