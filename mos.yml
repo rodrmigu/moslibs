@@ -6,20 +6,60 @@ config_schema:
   - ["device.type",           "i",  1,    {title: "Device Type"}]      
   
   - ["sensors", "o",                      {title: "Sensor configuration"}]
-  - ["sensors.pin1.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
-  - ["sensors.pin1.id",       "s", "",    {title: "Sensor name"}]
-  - ["sensors.pin1.gpio",     "i", -1,    {title: "GPIO pin"}]
-  - ["sensors.pin1.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
-  - ["sensors.pin1.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
-  - ["sensors.pin1.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+  - ["sensors.idx1.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx1.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx1.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx1.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx1.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
 
-  - ["sensors.pin2.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
-  - ["sensors.pin2.id",       "s", "",    {title: "Sensor name"}]
-  - ["sensors.pin2.gpio",     "i", -1,    {title: "GPIO pin"}]
-  - ["sensors.pin2.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
-  - ["sensors.pin2.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
-  - ["sensors.pin2.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+  - ["sensors.idx2.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx2.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx2.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx2.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx2.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.idx3.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx3.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx3.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx3.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx3.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.idx4.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx4.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx4.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx4.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx4.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.idx5.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx5.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx5.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx5.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx5.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.idx6.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx6.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx6.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx6.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx6.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.idx7.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx7.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx7.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx7.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx7.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.idx8.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx8.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx8.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx8.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx8.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
+
+  - ["sensors.idx9.type",     "i", -1,    {title: "Sensor type, like Switch, Contact, PWM, RGB"}]
+  - ["sensors.idx9.gpio",     "i", -1,    {title: "GPIO pin"}]
+  - ["sensors.idx9.pull_up",  "b", false, {title: "GPIO Pull Up or Pull Down"}]
+  - ["sensors.idx9.interval", "i", -1,    {title: "Frequency of refresh in minutes"}]
+  - ["sensors.idx9.value",    "s", "",    {title: "Initial value, on/off, pwm value, RGB(r, g, b, Brightness, White level)"}] 
 
 # Used by the mos tool to catch mos binaries incompatible with this file format
 manifest_version: 2017-09-29
-
+  
